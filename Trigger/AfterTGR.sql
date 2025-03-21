@@ -21,7 +21,7 @@
 	select * from StudentsLog;
 
 ------------------------------------------------------------------------------------------------------------------
-										-- AFTER INSERT --									
+			-- AFTER INSERT --									
 
 --Creating a Trigger for Inserting row
 	Create Trigger InsertStudentTRG
@@ -68,7 +68,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-										-- AFTER UPDATE --
+				-- AFTER UPDATE --
 	
 --Creating after update Trigger
 	Create Trigger UpdateStudentTGR
@@ -91,7 +91,7 @@
 
 ------------------------------------------------------------------------------------------------------------------
 
-											-- AFTER DELETE --
+				-- AFTER DELETE --
 	
 --Creating after update Trigger
 	Create Trigger DeleteStudentTGR
